@@ -30,7 +30,7 @@
 
 **AdPulse** is a full-stack campaign intelligence system that combines machine learning, explainable AI, and real-time analytics to help marketing teams predict revenue, understand model decisions, and optimize ad spend across channels.
 
-Built for the **BNY Mellon DataSprint Hackathon**, AdPulse goes beyond simple predictions — it provides *actionable insights* backed by SHAP/LIME explanations, budget optimization, and AI-powered campaign analysis.
+AdPulse goes beyond simple predictions — it provides *actionable insights* backed by SHAP/LIME explanations, budget optimization, and AI-powered campaign analysis.
 
 ### What Makes AdPulse Different?
 
@@ -318,8 +318,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 👤 Author
 
-**Purushottam**  
-Built for the BNY Mellon DataSprint Hackathon
+**Khushee Dengale**  
+[GitHub](https://github.com/KHUSHEEdengale)
 
 ---
 

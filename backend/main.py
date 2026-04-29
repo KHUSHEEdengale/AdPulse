@@ -348,7 +348,7 @@ def chat(req: ChatRequest):
         shap_context = "Top ML revenue drivers:\n" + \
                        "\n".join([f"- {k}: {v:.3f}" for k, v in top])
 
-    prompt = f"""You are AdPulse, a senior digital marketing AI analyst for a BNY Mellon hackathon demo.
+    prompt = f"""You are AdPulse, a senior digital marketing AI analyst specializing in campaign intelligence.
 Campaign context: {json.dumps(ctx)}
 {shap_context}
 User question: {req.question}
