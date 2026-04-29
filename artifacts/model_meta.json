@@ -1,0 +1,43 @@
+{
+  "model": "XGBoost + LightGBM Ensemble",
+  "n_features": 64,
+  "n_samples": 2489,
+  "metrics": {
+    "xgb": {
+      "R2": 0.9851797375576329,
+      "RMSE": 1893.2614889917556,
+      "MAE": 940.9460061919502,
+      "MAPE": 11.343615967512404
+    },
+    "lgb": {
+      "R2": 0.9976807107217687,
+      "RMSE": 748.962569844411,
+      "MAE": 377.8400331276364,
+      "MAPE": 4.529316232617922
+    },
+    "ensemble": {
+      "R2": 0.993308941330051,
+      "RMSE": 1272.1258355298453,
+      "MAE": 618.464424551681,
+      "MAPE": 6.018803333045724
+    }
+  },
+  "top_features": [
+    "spend_efficiency",
+    "conversions",
+    "clicks",
+    "funnel_velocity",
+    "conversion_rate_pct",
+    "cvr_calc",
+    "campaign_health_score",
+    "spend_usd",
+    "cost_waste_ratio",
+    "log_spend"
+  ],
+  "tuning": "Optuna TPE (80 XGB + 60 LGB trials)",
+  "xai": [
+    "SHAP TreeExplainer",
+    "LIME TabularExplainer"
+  ],
+  "clusters": 4
+}
