@@ -2,7 +2,7 @@
   <img src="docs/banner.png" alt="AdPulse Banner" width="100%"/>
 </p>
 
-<h1 align="center">AdPulse — AI-Powered Campaign Intelligence Platform</h1>
+<h1 align="center">AdPulse - AIPowered Campaign Intelligence Platform</h1>
 
 <p align="center">
   <strong>ML-driven revenue prediction, explainability (SHAP + LIME), and real-time campaign optimization for digital advertising.</strong>
